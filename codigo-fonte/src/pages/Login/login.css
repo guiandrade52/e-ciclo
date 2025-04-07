@@ -1,0 +1,212 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+}
+
+.login-page {
+    display: flex;
+}
+
+.container-left {
+    background-color: #2EBB63;
+    height: 100vh;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    grid-gap: 1rem;
+}
+
+.poppinns-700 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppinns-400 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.div-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.title-text {
+    font-size: 36px;
+    color: #F8F8F8;
+}
+
+.subtitle-text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color:#F8F8F8;
+}
+
+.login-text {
+    font-size: 2.25rem;
+    color: #000000;
+}
+
+.roboto-400 {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-500 {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.roboto-700 {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.container-right {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    grid-gap: 1rem;
+}
+.button {
+    padding: 1rem;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+    cursor: pointer;
+}
+
+#google-button {
+    background-color: #EA4335;
+    color: #FEFEFE;
+}
+
+#google-icon, #login-icon {
+    padding-right: 0.625rem;
+}
+
+.purple-button {
+    background-color: #835AFD;
+    color: #FEFEFE;
+}
+
+#continue-button {
+    background-color: #5820FD;
+    color: #FEFEFE;
+}
+
+.separator {
+    width: 3.5rem;
+    height: 0.0625rem;
+    background-color: #A8A8B3;
+}
+
+.login-user {
+    display: flex;
+    align-items: center;
+    grid-gap: 0.3rem;
+}
+
+.text-light {
+    color: #A8A8B3;
+}
+
+.input {
+    width: 18rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #A8A8B3;
+}
+
+.input:focus {
+    border: 1px solid #A8A8B3;
+    outline: none;
+}
+
+.label {
+    font-size: 0.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.div-register {
+    display: flex;
+    grid-gap: 0.3rem;
+}
+
+.click:hover  {
+    cursor: pointer;
+    color: #29292E;
+}
+
+.modal {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+    display: none;
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 2rem;
+    padding: 4rem;
+    border-radius: 0.5rem;
+    background-color: #ffffff;
+    max-width: 90vw;
+}
+
+.step-password {
+    display: none;
+}
+
+.step-error {
+    display: none;
+    justify-content: center;
+}
+
+.show-error {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+

@@ -1,0 +1,27 @@
+cff-version: 1.0.1
+message: Sistema de busca de pontos de coleta.
+title: E-ciclo
+authors:
+  - family-names: De Andrade Castro Vieira
+    given-names: Guilherme
+  - family-names: Vitor Lopes
+    given-names: Amanda 
+  - family-names: Sena Hautequestt Candal
+    given-names: Nathalia 
+  - family-names: Meireles Coelho
+    given-names: André 
+  - family-names: Farias Glória
+    given-names: Yasmin 
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Soares Rodrigues
+    given-names: Edwaldo
+keywords:
+  - coleta
+  - reciclagem
+  - eletronico
+  - lixo
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/Grupo-13--Lixo-eletronico
+license: CC-BY-4.0
+version: 1.0.0
+date-released: 2024-11-27

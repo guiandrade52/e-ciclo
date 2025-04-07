@@ -1,0 +1,191 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+#mapa {
+  width: 100%;
+  height: 40rem;
+  margin-bottom: 1rem;
+}
+
+.mapa-lista {
+  margin: 0;
+  margin-bottom: 2rem;
+}
+
+#mapa-not-found {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footer {
+  bottom: 0;
+  width: 100%;
+  background-color: #2ebb63;
+  color: white;
+  text-align: center;
+}
+
+.header-user-logo {
+  width: 2.2em;
+}
+
+#dropdownMenuButton1 {
+  background-color: #2ebb63;
+  border: none;
+  margin-right: 1rem;
+}
+
+#opcoes-descarte {
+  font-weight: bold;
+  margin-bottom: 0.7rem;
+  font-size: medium;
+}
+
+.lista-equipamentos {
+  font-size: medium;
+  padding: 0.4rem;
+  overflow: auto;
+
+}
+
+.endereco-style {
+  font-size: medium;
+  text-align: center;
+  border: 1px;
+  padding-bottom: 0.7rem;
+  border-style: solid;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin: 1.5rem;
+}
+
+#nav-bar-home {
+    background-color: #2ebb63;
+}
+
+#perfil {
+    background-color: #2ebb63; 
+    border-color:white
+}
+
+#pontos-coletas-proximos {
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-width: 1px;
+    margin-bottom: 1.2rem;
+}
+
+#tipo-descarte-endereco {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#icone-equipamentos {
+  margin-top: 0.65rem;
+  margin-left: 1.5rem;
+}
+
+/* Tooltip */
+.tooltip-text {
+  visibility: hidden;
+  position: absolute;
+  z-index: 1;
+  width: 100px;
+  color: white;
+  font-size: 10px;
+  background-color: #192733;
+  border-radius: 10px;
+  padding: 10px 15px 10px 15px;
+}
+
+.hover-text:hover .tooltip-text {
+  visibility: visible;
+}
+
+#top {
+  top: -40px;
+  left: -50%;
+}
+
+#bottom {
+  top: 25px;
+  left: -50%;
+}
+
+#left {
+  top: -8px;
+  right: 120%;
+}
+
+#right {
+  top: -8px;
+  left: 120%;
+}
+
+.hover-text {
+  position: relative;
+  display: inline-block;
+  font-family: Arial;
+  text-align: center;
+}
+
+.card-enderecos {
+  border-style: solid;
+  border-color: #2ebb63;
+  margin-bottom: 0.9rem;
+  border-radius: 0.8rem;
+}
+
+#filtro-input {
+  margin-left: 0.7rem;
+  margin-bottom: 0.9rem;
+  max-width: 70%;
+}
+
+#filter-button {
+  margin-left: 0.5rem;
+  padding: 0.7rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #2ebb63;
+  color: white;
+  margin: 0.5rem;
+}
+
+#filter-button:hover {
+  background-color: #192733;
+}
+
+#input-filter {
+  width: 28rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+  border-width: 0px;
+  background-color: #e2e2e2;
+  color: black;
+  padding: 0.9rem;
+  margin-left: 0.6rem;
+}
+
+#lista-end {
+  max-width: 30rem;
+}
+
+#main-home {
+  align-items: center;
+}
+
+.clickable {
+  cursor: pointer;
+}

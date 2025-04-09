@@ -12,34 +12,34 @@ const inputFilter = document.getElementById("input-filter");
 /* Defina chaves de API, se houver, aqui.  Ideal colocar dentro de um arquivo .env */
 const api_key_google_maps = "";
 
-const autoCompleteEndereco = new autoComplete({
-  searchEngine: "loose",
-  threshold: 0,
-  selector: "#endereco-atual",
-  placeHolder: "Buscar Endereço",
-  data: {
-    src: async (query) => {
-      try {
-        const ret = await buscadorDeLocais(query);
-        return ret.map((x) => x.display_name);
-      } catch (error) {
-        return error;
-      }
-    },
-    cache: false,
-  },
-  resultItem: {
-    highlight: false,
-  },
-  events: {
-    input: {
-      selection: (event) => {
-        const selection = event.detail.selection.value;
-        autoCompleteEndereco.input.value = selection;
-      },
-    },
-  },
-});
+// const autoCompleteEndereco = new autoComplete({
+//   searchEngine: "loose",
+//   threshold: 0,
+//   selector: "#endereco-atual",
+//   placeHolder: "Buscar Endereço",
+//   data: {
+//     src: async (query) => {
+//       try {
+//         const ret = await buscadorDeLocais(query);
+//         return ret.map((x) => x.display_name);
+//       } catch (error) {
+//         return error;
+//       }
+//     },
+//     cache: false,
+//   },
+//   resultItem: {
+//     highlight: false,
+//   },
+//   events: {
+//     input: {
+//       selection: (event) => {
+//         const selection = event.detail.selection.value;
+//         autoCompleteEndereco.input.value = selection;
+//       },
+//     },
+//   },
+// });
 
 const useState = (defaultValue) => {
   let value = defaultValue;
